@@ -17,11 +17,13 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <p className="text-gold font-body uppercase tracking-[0.3em] text-sm mb-6">
-            Business Acquisition & Investment
+          <p className="text-gold font-body uppercase tracking-[0.3em] text-sm mb-4">
+            Beth Frankos
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-medium leading-tight mb-6">
-            Beth Frankos
+            Business Acquisition
+            <br />
+            & Investment
           </h1>
           <div className="w-16 h-px bg-gold mx-auto mb-8" />
           <p className="font-body text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed mb-10">
