@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
+import OrganicBlush from "./OrganicBlush";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 md:py-32 bg-card">
+    <section id="about" className="relative py-24 md:py-32 bg-card overflow-hidden">
+      <OrganicBlush />
       <div className="container px-6">
         <div className="max-w-3xl mx-auto">
           <motion.div
