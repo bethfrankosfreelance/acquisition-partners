@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Shield, Globe, Users, TrendingUp, Zap, Building } from "lucide-react";
+import OrganicBlush from "./OrganicBlush";
 
 const criteria = [
   {
@@ -36,7 +37,8 @@ const criteria = [
 
 const CriteriaSection = () => {
   return (
-    <section id="criteria" className="py-24 md:py-32 bg-background">
+    <section id="criteria" className="relative py-24 md:py-32 bg-background overflow-hidden">
+      <OrganicBlush />
       <div className="container px-6">
         <motion.div
           className="text-center mb-16"
