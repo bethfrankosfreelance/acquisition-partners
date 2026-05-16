@@ -17,4 +17,13 @@ export const shopItems: ShopItem[] = [
     image: "https://m.media-amazon.com/images/I/61IgWXs5BRL._AC_SX466_.jpg",
     url: "https://amzn.to/4dtjrvV",
   },
+  {
+    id: "pixel-10-indigo",
+    title: "Google Pixel 10",
+    description:
+      "Unlocked Android smartphone with Gemini AI Assistant, advanced triple rear camera, fast-charging 24+ hour battery, and 6.3\" Actua Display — Indigo, 128 GB (2025 Model).",
+    price: "$599.00",
+    image: "https://m.media-amazon.com/images/I/61aU1bmGyML._AC_SX466_.jpg",
+    url: "https://amzn.to/4fpNU0k",
+  },
 ];
